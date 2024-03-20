@@ -17,7 +17,9 @@ function HeroSection() {
           React, Next.js, and Node.js. I'm also interested in learning new
           technologies and frameworks.`}
             </p>
-            <CTAButton>Download CV</CTAButton>
+            <a className="max-w-max" href="/borislav-cv.pdf" download={true}>
+              <CTAButton>Download CV</CTAButton>
+            </a>
           </div>
           <Image
             className="rounded-full"
