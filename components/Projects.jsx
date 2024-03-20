@@ -12,7 +12,10 @@ function Projects() {
         <Project
           title="Personal website"
           description="This is my personal website that I built using Next.js and Tailwind CSS. It is a static website that is hosted on Vercel. I used Figma to design the layout and the components of the website. I also used framer motion to create the animations."
-          links={{ code: "#", live: null }}
+          links={{
+            code: "https://github.com/borislavDci/personal-web-site",
+            live: null,
+          }}
           image="portfolio.png"
           colors={[
             "#00234c",
@@ -32,7 +35,10 @@ function Projects() {
           to the success of the platform in facilitating peer-to-peer car
           rentals.
           I used React and Tailwind CSS for the frontend, Node.js and Express.js for backend and MongoDB for database. For authentication, I used JWT (JSON Web Token).`}
-          links={{ code: "#", live: null }}
+          links={{
+            code: "https://github.com/borislavDci/DriveMate",
+            live: null,
+          }}
           image="drive-mate.png"
           colors={["#00234c", "#0074ff"]}
         />
