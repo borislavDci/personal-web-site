@@ -40,21 +40,13 @@ function Projects() {
             live: null,
           }}
           image="drive-mate.webp"
-          colors={["#00234c", "#0074ff"]}
+          colors={["#081448", "#282157", "#1a2c80"]}
         />
         <Project
           title="Auto service management platform"
           description={`Comprehensive auto service management platform that enables users to track service history, and manage vehicle maintenance. Enhanced the platform with a user-friendly interface, allowing customers to easily access service records. Currenlty working on the project.`}
           image="car-management.png"
-          colors={[
-            "#00234c",
-            "#0074ff",
-            "#144030",
-            "#43d6a0",
-            "#FFF",
-            "#071510",
-            "#288060",
-          ]}
+          colors={["#210535", "#430d4b", "#013026", "#014760", "#a44322"]}
         />
       </div>
     </div>
