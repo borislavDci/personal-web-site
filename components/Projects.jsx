@@ -39,7 +39,7 @@ function Projects() {
             code: "https://github.com/borislavDci/DriveMate",
             live: null,
           }}
-          image="drive-mate.png"
+          image="drive-mate.webp"
           colors={["#00234c", "#0074ff"]}
         />
         <Project
