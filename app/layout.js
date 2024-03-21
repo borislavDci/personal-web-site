@@ -11,6 +11,9 @@ const roboto = Roboto({
 export const metadata = {
   title: "Borislav Atanasov | Personal Portfolio",
   description: "Borislav Atanasov's personal portfolio",
+  icons: {
+    icon: "/icon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
