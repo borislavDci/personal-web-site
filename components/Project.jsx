@@ -54,19 +54,14 @@ function Project({ links, image, title, description, colors }) {
       />
       <div className="flex flex-col md:flex-row gap-5 self-center md:self-start">
         {links && links.code && (
-          <CTAButton>
-            <a href={links.code} target="_blank" rel="noopener noreferrer">
-              View Code
-            </a>
-          </CTAButton>
+          <a href={links.code} target="_blank" rel="noopener noreferrer">
+            <CTAButton>View Code</CTAButton>
+          </a>
         )}
         {links && links.live && (
-          <CTAButton>
-            {" "}
-            <a href={links.live} target="_blank" rel="noopener noreferrer">
-              View Live
-            </a>
-          </CTAButton>
+          <a href={links.live} target="_blank" rel="noopener noreferrer">
+            <CTAButton>View Live</CTAButton>
+          </a>
         )}{" "}
       </div>
     </motion.div>
