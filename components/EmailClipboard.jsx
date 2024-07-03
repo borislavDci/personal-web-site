@@ -26,7 +26,7 @@ function EmailClipboard() {
           if (!navigator.clipboard) {
             return setIsCoppied("borislavm.atanasov@gmail.com");
           }
-          navigator.clipboard.writeText("borislavm.atansov@gmail.com");
+          navigator.clipboard.writeText("borislavm.atanasov@gmail.com");
           setIsCoppied("Email copied to clipboard");
         }}
       />
